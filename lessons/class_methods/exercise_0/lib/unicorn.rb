@@ -12,8 +12,4 @@ class Unicorn
   def add_magical_power(power)
     @magical_powers.push(power)
   end
-
-  def add_magical_powers(powers)
-    # powers is array
-  end
 end
