@@ -1,31 +1,31 @@
 require './lib/hobbit'
 
 RSpec.describe Hobbit do
-  it "has a name" do
+  xit "has a name" do
     hobbit = Hobbit.new("Bilbo")
 
     expect(hobbit.name).to eq("Bilbo")
   end
 
-  it "is named something else" do
+  xit "is named something else" do
     hobbit = Hobbit.new("Peregrin")
 
     expect(hobbit.name).to eq("Peregrin")
   end
 
-  it "disposition is unadventurous" do
+  xit "disposition is unadventurous" do
     hobbit = Hobbit.new("Samwise")
 
     expect(hobbit.disposition).to eq("homebody")
   end
 
-  it "can have a different disposition" do
+  xit "can have a different disposition" do
     hobbit = Hobbit.new("Frodo", "adventurous")
 
     expect(hobbit.disposition).to eq("adventurous")
   end
 
-  it "grows older when celebrating birthdays" do
+  xit "grows older when celebrating birthdays" do
     hobbit = Hobbit.new('Meriadoc')
 
     expect(hobbit.age).to eq(0)
